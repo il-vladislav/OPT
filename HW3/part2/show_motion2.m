@@ -8,7 +8,7 @@ end
 
 %% Zde doplnte Vas kod, ktery najde aproximaci A_approx %%%%%%%%%%%%
 
-A_approx = A+3 *randn(size(A));  % toto je jen pro ukazku
+%A_approx = A+3 *randn(size(A));  % toto je jen pro ukazku
 
 
 %% konec Vaseho kodu %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

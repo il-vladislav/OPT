@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.11.7)  7 NOV 2014 23:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2014.11.7)  8 NOV 2014 00:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -784,56 +784,63 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
-File: part1/TLS.png Graphic file (type png)
- <use part1/TLS.png>
-Package pdftex.def Info: part1/TLS.png used on input line 99.
-(pdftex.def)             Requested size: 276.00105pt x 227.8888pt.
 
-[2]
-File: part1/TLS.png Graphic file (type png)
- <use part1/TLS.png>
-Package pdftex.def Info: part1/TLS.png used on input line 108.
-(pdftex.def)             Requested size: 276.00105pt x 227.8888pt.
-File: part1/TLS.png Graphic file (type png)
- <use part1/TLS.png>
-Package pdftex.def Info: part1/TLS.png used on input line 117.
-(pdftex.def)             Requested size: 276.00105pt x 227.8888pt.
+<part2/2d1.png, id=14, 421.575pt x 316.18124pt>
+File: part2/2d1.png Graphic file (type png)
+ <use part2/2d1.png>
+Package pdftex.def Info: part2/2d1.png used on input line 99.
+(pdftex.def)             Requested size: 276.00105pt x 207.00615pt.
+ [2]
+<part2/2d2.png, id=26, 421.575pt x 316.18124pt>
+File: part2/2d2.png Graphic file (type png)
+ <use part2/2d2.png>
+Package pdftex.def Info: part2/2d2.png used on input line 108.
+(pdftex.def)             Requested size: 276.00105pt x 207.00615pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: part1/TLS.png Graphic file (type png)
-<use part1/TLS.png>
-Package pdftex.def Info: part1/TLS.png used on input line 126.
-(pdftex.def)             Requested size: 276.00105pt x 227.8888pt.
+<part2/3d1.png, id=27, 421.575pt x 316.18124pt>
+File: part2/3d1.png Graphic file (type png)
+ <use part2/3d1.png>
+Package pdftex.def Info: part2/3d1.png used on input line 117.
+(pdftex.def)             Requested size: 276.00105pt x 207.00615pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3] [4] (./main.aux) ) 
+<part2/3d2.png, id=28, 421.575pt x 316.18124pt>
+File: part2/3d2.png Graphic file (type png)
+ <use part2/3d2.png>
+Package pdftex.def Info: part2/3d2.png used on input line 126.
+(pdftex.def)             Requested size: 276.00105pt x 207.00615pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <./part2/2d1.png (PNG copy)> <./part2/2d2.png (PNG copy)>] [4 <./part2/3d1.p
+ng (PNG copy)> <./part2/3d2.png (PNG copy)>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 14704 strings out of 493109
- 275128 string characters out of 6138587
- 325793 words of memory out of 5000000
- 17878 multiletter control sequences out of 15000+600000
+ 14725 strings out of 493109
+ 275446 string characters out of 6138587
+ 325790 words of memory out of 5000000
+ 17894 multiletter control sequences out of 15000+600000
  9642 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,56p,435b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2014/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2014/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr17.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.
-pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (4 pages, 158116 bytes).
+<c:/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2014/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2014/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmex10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.p
+fb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2014/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2014/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2014/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb>
+Output written on main.pdf (4 pages, 229864 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 73 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
