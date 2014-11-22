@@ -1,0 +1,95 @@
+Names = {'1point';'2point';'9688point'};
+
+for O = 1:3
+    if (O==1)
+        X = [0];
+        Y = [0];
+    elseif (O == 2)
+        X = [-1 1]';
+        Y = [0 0]';
+    else
+        load('my_data2.mat');
+    end
+    disp(O)
+    a = 1;
+    b = 1;
+    range = -max(max(abs(X), abs(Y)))*2-4:1:max(max(abs(X), abs(Y)))*2+4;
+    
+    s = size(range, 2);
+    c = ones(s, s);
+
+    for x = range
+    a = 1;
+    disp(x)
+    for y = range
+        c(a,b) = dist([X Y], [x y 1]).^2;
+    a = a + 1;
+    end
+    b = b + 1;
+    end
+    close all
+    hFig = figure(1);
+    set(hFig, 'Position', [1 1 1024 1024])
+    axis auto
+    mesh(range, range, c);
+    hold on
+    contour (range, range, c, 100);
+    contour3(range, range, c, 5,  'LineWidth',0.01, 'Color','b');
+    hold off
+    if (O == 1)
+        print -depsc 1point_mesh.eps
+        print -dpng 1point_mesh.png
+    elseif (O == 2)
+        print -depsc 2point_mesh.eps
+        print -dpng 2point_mesh.png
+    else
+        print -depsc 9688point_mesh.eps
+        print -dpng 9688point_mesh.png
+    end
+    close all
+    
+    hFig = figure(1);
+    set(hFig, 'Position', [1 1 1024 1024])
+    axis auto
+    contour (range, range, c, 100);
+    
+    if (O == 1)
+        print -depsc 1point_contour.eps
+        print -dpng 1point_contour.png
+    elseif (O == 2)
+        print -depsc 2point_contour.eps
+        print -dpng 2point_contour.png
+    else
+        print -depsc 9688point_contour.eps
+        print -dpng 9688point_contour.png
+    end
+    close all
+    
+    t = [0 0]; 
+    r = 1;
+    for j=1:100
+        [t, r] = gaus_newton([X Y], t, r);
+    end
+    hFig = figure(1);
+    set(hFig, 'Position', [1 1 1024 1024])
+    axis auto
+    ang=0:0.01:2*pi; 
+    xp=r*cos(ang);
+    yp=r*sin(ang);
+    plot(t(1)+xp,t(1)+yp, 'r');
+    hold on
+    plot(X, Y, 'yo');
+    if (O == 1)
+        print -depsc 1point_approx.eps
+        print -dpng 1point_approx.png
+    elseif (O == 2)
+        print -depsc 2point_approx.eps
+        print -dpng 2point_approx.png
+    else
+        print -depsc 9688point_approx.eps
+        print -dpng 9688point_approx.png
+    end
+    
+    
+    
+end
